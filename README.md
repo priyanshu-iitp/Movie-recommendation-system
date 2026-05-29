@@ -1,5 +1,5 @@
 
-#  Movie Recommendation System
+# Movie Recommendation System
 
 A content-based Movie Recommendation System built using **Python**, **Flask**, and **Machine Learning**.  
 The application recommends similar movies based on user-selected movie preferences.
@@ -8,11 +8,11 @@ The application recommends similar movies based on user-selected movie preferenc
 
 # Live Demo
 
-🔗 [https://movie-recommendation-system-wwvf.onrender.com](https://movie-recommendation-system-wvwf.onrender.com/)
+🔗 https://movie-recommendation-system-wwvf.onrender.com
 
 ---
 
-# Features
+#  Features
 
 - Recommend similar movies instantly
 - Search movies by title
@@ -23,7 +23,7 @@ The application recommends similar movies based on user-selected movie preferenc
 
 ---
 
-# Tech Stack
+#  Tech Stack
 
 ## Frontend
 - HTML
@@ -48,7 +48,7 @@ The application recommends similar movies based on user-selected movie preferenc
 
 # Project Structure
 
-
+```bash
 movie_recommendation_system/
 │
 ├── backend/
@@ -70,7 +70,7 @@ movie_recommendation_system/
 ├── .gitignore
 ├── .gitattributes
 └── README.md
-
+````
 
 ---
 
@@ -78,7 +78,7 @@ movie_recommendation_system/
 
 ## Clone Repository
 
-
+```bash
 git clone https://github.com/priyanshu-iitp/Movie-recommendation-system.git
 ```
 
@@ -108,7 +108,7 @@ python app.py
 
 ---
 
-#  How It Works
+# How It Works
 
 1. Movie datasets are processed using NLP techniques.
 2. Feature vectors are created from movie metadata.
@@ -117,14 +117,14 @@ python app.py
 
 ---
 
-#  Dataset Used
+# Dataset Used
 
 * TMDB 5000 Movies Dataset
 * TMDB 5000 Credits Dataset
 
 ---
 
-# 📸Screenshots
+# Screenshots
 
 *Add screenshots of your project here.*
 
@@ -150,7 +150,7 @@ python app.py
 
 # If you like this project
 
-Give this repository a star ⭐ on GitHub.
+Give this repository a star  on GitHub.
 
 ```
 ```
