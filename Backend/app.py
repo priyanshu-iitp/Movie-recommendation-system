@@ -2,7 +2,11 @@
 from flask import Flask, render_template, request
 import pickle
 
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder='../frontend/templates',
+    static_folder='../frontend/static'
+)
 
 # Load movies data
 movies = pickle.load(open('movies.pkl', 'rb'))
