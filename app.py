@@ -1,4 +1,3 @@
-```python
 from flask import Flask, render_template, request
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
@@ -61,4 +60,3 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
-```
