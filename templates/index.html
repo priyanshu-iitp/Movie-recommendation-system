@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Recommendation System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Movie Recommendation System</h1>
+
+        <form method="POST">
+
+    <input
+        list="movies"
+        name="movie"
+        placeholder="Search movie..."
+        required
+    >
+
+    <datalist id="movies">
+
+        {% for movie in movie_list %}
+            <option value="{{ movie }}">
+        {% endfor %}
+
+    </datalist>
+
+    <button type="submit">
+        Recommend
+    </button>
+
+</form>
+
+        <div class="results">
+
+    {% for movie in recommendations %}
+
+        <div class="movie-card">
+            <h3>{{ movie }}</h3>
+        </div>
+
+    {% endfor %}
+
+</div>
+
+    </div>
+
+</body>
+
+</html>
