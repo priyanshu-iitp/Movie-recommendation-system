@@ -125,8 +125,9 @@ python app.py
 ---
 
 # Screenshots
+<img width="1455" height="776" alt="image" src="https://github.com/user-attachments/assets/47b6021a-2520-4a96-b0de-b6918248989f" />
+<img width="1488" height="609" alt="image" src="https://github.com/user-attachments/assets/d7548aaa-939a-4d52-91b3-d6077ab81501" />
 
-*Add screenshots of your project here.*
 
 ---
 
