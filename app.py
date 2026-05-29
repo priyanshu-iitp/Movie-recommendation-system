@@ -1,14 +1,14 @@
+
 from flask import Flask, render_template, request
 import pickle
-from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
 
 # Load movies data
 movies = pickle.load(open('movies.pkl', 'rb'))
 
-# Generate similarity matrix dynamically
-similarity = cosine_similarity(movies.drop(['title'], axis=1))
+# Load similarity matrix
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
 def recommend(movie):
@@ -60,3 +60,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
